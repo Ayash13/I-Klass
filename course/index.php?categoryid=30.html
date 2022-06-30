@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="en" xml:lang="en">
+<head>
+    <title>Engineering: Semester 5</title>
+    <link rel="shortcut icon" href="https://myklass-eng.umy.ac.id/theme/image.php/lambda/theme/1653111401/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Engineering: Semester 5" />
+<link rel="stylesheet" type="text/css" href="https://myklass-eng.umy.ac.id/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://myklass-eng.umy.ac.id/theme/styles.php/lambda/1653111401_1/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/myklass-eng.umy.ac.id","sesskey":"LahoI5Vupt","themerev":"1653111401","slasharguments":1,"theme":"lambda","iconsystemmodule":"core\/icon_system_standard","jsrev":"1646796044","admin":"admin","svgicons":true,"usertimezone":"Asia\/Jakarta","contextid":1676};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/myklass-eng.umy.ac.id\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/myklass-eng.umy.ac.id\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/myklass-eng.umy.ac.id\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/myklass-eng.umy.ac.id\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/myklass-eng.umy.ac.id\/theme\/yui_combo.php?m\/1646796044\/","combine":true,"comboBase":"https:\/\/myklass-eng.umy.ac.id\/theme\/yui_combo.php?","ext":false,"root":"m\/1646796044\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/myklass-eng.umy.ac.id\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/myklass-eng.umy.ac.id\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1646796044\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/myklass-eng.umy.ac.id\/lib\/javascript.php\/1646796044\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/myklass-eng.umy.ac.id\/lib\/javascript.php\/1646796044\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160980691-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160980691-1');
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Open+Sans:700" rel="stylesheet">
+
+</head>
+
+<body  id="page-course-index-category" class="format-site  path-course path-course-index dir-ltr lang-en yui-skin-sam yui3-skin-sam myklass-eng-umy-ac-id pagelayout-coursecategory course-1 context-1676 category-30 notloggedin columns3 has-region-side-pre empty-region-side-pre has-region-side-post used-region-side-post has-region-footer-left empty-region-footer-left has-region-footer-middle empty-region-footer-middle has-region-footer-right empty-region-footer-right side-post-only">
+
+<div class="skiplinks">
+    <a href="#maincontent" class="skip">Skip to main content</a>
+</div><script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/jquery.php/core/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/jquery.php/theme_lambda/jquery.easing.min.1.4.js"></script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/jquery.php/theme_lambda/camera.js"></script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/jquery.php/theme_lambda/jquery.bxslider32.js"></script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/jquery.php/theme_lambda/lambda_customjs.js"></script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/lib/javascript.php/1646796044/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+<div id="wrapper">
+
+
+
+<header id="page-header" class="clearfix">              	
+		<div class="container-fluid">    
+	<div class="row-fluid">
+
+				<div class="span6">
+			<div class="logo-header">
+				<a class="logo" href="https://myklass-eng.umy.ac.id" title="Home">
+					<img src="//myklass-eng.umy.ac.id/pluginfile.php/1/theme_lambda/logo/1653111401/logo%20myklass.jpg" class="img-responsive" alt="logo" />				</a>
+			</div>
+		</div>
+		      	
+
+		<div class="span6 login-header">
+			<div class="profileblock">
+
+				
+				<form class="navbar-form pull-right" method="post" action="https://myklass-eng.umy.ac.id/login/index.php?authldap_skipntlmsso=1">
+						<div id="block-login">
+							<div id="user"><i class="fa fa-user"></i></div>
+							<label for="inputName" class="lambda-sr-only">Username</label>
+							<input id="inputName" class="span2" type="text" name="username" placeholder="Username">
+								<div id="pass"><i class="fa fa-key"></i></div>
+								<label for="inputPassword" class="lambda-sr-only">Password</label>
+								<input id="inputPassword" class="span2" type="password" name="password" id="password" placeholder="Password">
+									<button type="submit" id="submit"><span class="lambda-sr-only">Log in</span></button>
+								</div>
+
+								<div class="forgotpass">
+																		<a target="_self" href="https://myklass-eng.umy.ac.id/login/forgot_password.php">Forgotten your username or password?</a>
+									 
+								</div>
+
+							</form>
+							
+							
+						</div>
+					</div>
+
+				</div>
+			</div>               
+</header>
+<header role="banner" class="navbar" >
+    <nav role="navigation" class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="https://myklass-eng.umy.ac.id">Front page</a>            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav"><li class="dropdown"><a href="#cm_submenu_1" class="dropdown-toggle" data-toggle="dropdown" title="E-learning Prodi">E-learning Prodi<b class="caret"></b></a><ul class="dropdown-menu"><li><a title=" Mechanical Engineering" href="https://myklass-eng.umy.ac.id/course/index.php?categoryid=2"> Mechanical Engineering</a></li><li><a title=" Electrical Engineering" href="https://myklass-eng.umy.ac.id/course/index.php?categoryid=3"> Electrical Engineering</a></li><li><a title=" Civil Engineering" href="https://myklass-eng.umy.ac.id/course/index.php?categoryid=4"> Civil Engineering</a></li><li><a title=" Information Technology" href="https://myklass-eng.umy.ac.id/course/index.php?categoryid=5"> Information Technology</a></li><li><a title=" Profesi Insinyur" href="https://myklass-eng.umy.ac.id/course/index.php?categoryid=67"> Profesi Insinyur</a></li></ul></ul>                <ul class="nav pull-right">
+                    <li></li>
+                </ul>
+                
+                                
+                <form id="search" action="https://myklass-eng.umy.ac.id/course/search.php" >
+                <div class="divider pull-left"></div>
+                	<label for="coursesearchbox" class="lambda-sr-only">Search courses</label>						
+					<input id="coursesearchbox" type="text" onFocus="if(this.value =='Search courses' ) this.value=''" onBlur="if(this.value=='') this.value='Search courses'" value="Search courses" name="search" >
+					<button type="submit"><span class="lambda-sr-only">Submit</span></button>						
+				</form>
+                
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!-- Start Main Regions -->
+<div id="page" class="container-fluid">
+
+    <div id ="page-header-nav" class="clearfix">
+    	    </div>
+
+    <div id="page-content" class="row-fluid">
+        <div id="region-bs-main-and-pre" class="span9">
+            <div class="row-fluid">
+            	                <section id="region-main" class="span8">
+                                    <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><span></span><div class="categorypicker"><div class="singleselect d-inline-block">
+    <form method="get" action="https://myklass-eng.umy.ac.id/course/index.php" class="form-inline" id="switchcategory">
+            <label for="single_select62bdf29d3e6321">
+                Course categories:
+            </label>
+        <select  id="single_select62bdf29d3e6321" class="custom-select singleselect" name="categoryid">
+                    <option  value="2" >Mechanical Engineering</option>
+                    <option  value="6" >Mechanical Engineering / Semester 1</option>
+                    <option  value="7" >Mechanical Engineering / Semester 2</option>
+                    <option  value="8" >Mechanical Engineering / Semester 3</option>
+                    <option  value="9" >Mechanical Engineering / Semester 4</option>
+                    <option  value="10" >Mechanical Engineering / Semester 5</option>
+                    <option  value="11" >Mechanical Engineering / Semester 6</option>
+                    <option  value="61" >Mechanical Engineering / Semester 7</option>
+                    <option  value="83" >Mechanical Engineering / Merancang Mesin</option>
+                    <option  value="44" >Mechanical Engineering / Elective Course / Matakuliah Pilihan</option>
+                    <option  value="3" >Electrical Engineering</option>
+                    <option  value="12" >Electrical Engineering / Semester 1</option>
+                    <option  value="13" >Electrical Engineering / Semester 2</option>
+                    <option  value="15" >Electrical Engineering / Semester 3</option>
+                    <option  value="16" >Electrical Engineering / Semester 4</option>
+                    <option  value="14" >Electrical Engineering / Semester 5</option>
+                    <option  value="17" >Electrical Engineering / Semester 6</option>
+                    <option  value="18" >Electrical Engineering / Semester 7</option>
+                    <option  value="19" >Electrical Engineering / Semester 8</option>
+                    <option  value="20" >Electrical Engineering / Mata Kuliah Pilihan - Elective Courses</option>
+                    <option  value="66" >Electrical Engineering / Matrikulasi</option>
+                    <option  value="4" >Civil Engineering</option>
+                    <option  value="35" >Civil Engineering / Semester I</option>
+                    <option  value="36" >Civil Engineering / Semester II</option>
+                    <option  value="37" >Civil Engineering / Semester III</option>
+                    <option  value="38" >Civil Engineering / Semester IV</option>
+                    <option  value="39" >Civil Engineering / Semester V</option>
+                    <option  value="40" >Civil Engineering / Semester VI</option>
+                    <option  value="41" >Civil Engineering / Semester VII</option>
+                    <option  value="42" >Civil Engineering / Semester VIII</option>
+                    <option  value="74" >Civil Engineering / Kegiatan Program Studi</option>
+                    <option  value="75" >Civil Engineering / Kegiatan Program Studi / Rapat Program Studi</option>
+                    <option  value="76" >Civil Engineering / Kegiatan Program Studi / Forum KBK Keairan dan Lingkungan</option>
+                    <option  value="77" >Civil Engineering / Kegiatan Program Studi / Forum KBK Geotek</option>
+                    <option  value="78" >Civil Engineering / Kegiatan Program Studi / Forum KBK Transportasi</option>
+                    <option  value="79" >Civil Engineering / Kegiatan Program Studi / Forum KBK Struktur</option>
+                    <option  value="80" >Civil Engineering / Kegiatan Program Studi / Forum KBK Manajemen</option>
+                    <option  value="81" >Civil Engineering / Kegiatan Program Studi / Forum KBK Matakuliah Dasar</option>
+                    <option  value="82" >Civil Engineering / Kegiatan Program Studi / Pertemuan dengan Ketua kelas</option>
+                    <option  value="5" >Information Technology</option>
+                    <option  value="26" >Information Technology / Semester 1</option>
+                    <option  value="27" >Information Technology / Semester 2</option>
+                    <option  value="28" >Information Technology / Semester 3</option>
+                    <option  value="29" >Information Technology / Semester 4</option>
+                    <option  value="30" selected>Information Technology / Semester 5</option>
+                    <option  value="31" >Information Technology / Semester 6</option>
+                    <option  value="32" >Information Technology / Semester 7</option>
+                    <option  value="33" >Information Technology / Semester 8</option>
+                    <option  value="72" >Information Technology / Elective Course / Matakuliah Pilihan</option>
+                    <option  value="45" >Information Technology / Research</option>
+                    <option  value="58" >Information Technology / Research / Skripsi / Tugas Akhir</option>
+                    <option  value="59" >Information Technology / Research / Penelitian Dosen</option>
+                    <option  value="57" >Information Technology / Supporting Lectures</option>
+                    <option  value="60" >Information Technology / Internship Program</option>
+                    <option  value="62" >Information Technology / Publication</option>
+                    <option  value="65" >Information Technology / Community Services</option>
+                    <option  value="67" >Program Profesi Insinyur</option>
+                    <option  value="71" >Program Profesi Insinyur / SEMESTER 1</option>
+                    <option  value="70" >Program Profesi Insinyur / SEMESTER 2</option>
+                    <option  value="68" >Lintas FT</option>
+        </select>
+        <noscript>
+            <input type="submit" class="btn btn-secondary" value="Go">
+        </noscript>
+    </form>
+</div></div><form id="coursesearch" action="https://myklass-eng.umy.ac.id/course/search.php" method="get"><fieldset class="coursesearchbox invisiblefieldset"><label for="coursesearchbox">Search courses: </label><input type="text" id="coursesearchbox" size="30" name="search" value="" /><input type="submit" value="Go" /></fieldset></form><div class="course_category_tree clearfix "><div class="content"><div class="courses category-browse category-browse-30"><div class="coursebox clearfix odd first" data-courseid="1118" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1118">Pengembangan Web Service</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1118">Pengembangan Web Service</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=10428&amp;course=1">Muhamad Dedi Wardani</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=11810&amp;course=1">dwijoko</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=4631&amp;course=1">dwijoko.purbohadi</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=1118">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even" data-courseid="1117" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1117">Conversation On Professions And Experiences</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1117">Conversation On Professions And Experiences</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=10419&amp;course=1">titiswisnuwijaya</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=10405&amp;course=1">titis</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=1117">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix odd" data-courseid="1097" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1097">Pengembangan Aplikasi Terdistribusi</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1097">Pengembangan Aplikasi Terdistribusi</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2349&amp;course=1">asroni</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=10363&amp;course=1">Haidar Aldi Wintoro</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=4976&amp;course=1">Moch Asef Saefudin</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6032&amp;course=1">Musafak</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6041&amp;course=1">Mochammad Reza Rafli Zam Zam Alfarizi</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6054&amp;course=1">Nur Fajar Ismail</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6058&amp;course=1">Arif Budiman Arrosyid</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5494&amp;course=1">Haidar</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=890&amp;course=1">ramaoktawiyagi</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=1097">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even" data-courseid="1093" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1093">Jaringan Switching dan Wireless (2021)</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=1093">Jaringan Switching dan Wireless (2021)</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=11534&amp;course=1">syukro</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5496&amp;course=1">laila.m.azizah</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2153&amp;course=1">Fathania</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=893&amp;course=1">eko.prasetyo</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=1093">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix odd" data-courseid="877" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=877">Pengembangan Infrastruktur Kecerdasan Bisnis</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=877">Pengembangan Infrastruktur Kecerdasan Bisnis</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2349&amp;course=1">asroni</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=877">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even" data-courseid="875" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=875">TI504 - Developing Web Application</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=875">TI504 - Developing Web Application</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2349&amp;course=1">asroni</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=10363&amp;course=1">Haidar Aldi Wintoro</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5181&amp;course=1">Yunita Lestari</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6032&amp;course=1">Musafak</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6041&amp;course=1">Mochammad Reza Rafli Zam Zam Alfarizi</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6054&amp;course=1">Nur Fajar Ismail</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=6058&amp;course=1">Arif Budiman Arrosyid</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5494&amp;course=1">Haidar</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=875">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix odd" data-courseid="779" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=779">Developing Web Application</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=779">Developing Web Application</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2349&amp;course=1">asroni</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=779">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even" data-courseid="699" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=699"> Integreted Application Development using .NET Framework</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=699"> Integreted Application Development using .NET Framework</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2179&amp;course=1">Aina Hubby Aziira</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2335&amp;course=1">etik</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2099&amp;course=1">Marsha Dwi Anggraini</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=699">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix odd" data-courseid="698" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=698">Software Testing and Quality Assurance</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=698">Software Testing and Quality Assurance</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2179&amp;course=1">Aina Hubby Aziira</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2335&amp;course=1">etik</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2099&amp;course=1">Marsha Dwi Anggraini</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2203&amp;course=1">Qariba</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=698">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even" data-courseid="650" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=650">Developing Database using ADO.NET &amp; JDBC</a></h3><div class="moreinfo"></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=650">Developing Database using ADO.NET &amp; JDBC</a></h3><div></div></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=650">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix odd" data-courseid="746" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=746">Jaringan Switching dan Wireless</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=746">Jaringan Switching dan Wireless</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=3283&amp;course=1">Ahmad Wakhid Hasim</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=902&amp;course=1">Aan</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5496&amp;course=1">laila.m.azizah</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5442&amp;course=1">riyadi</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=746">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even" data-courseid="162" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=162">Multimedia Design </a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withoutkey" /></div></div><div class="content"><div class="courseimage" style="background-image: url(https://myklass-eng.umy.ac.id/pluginfile.php/3761/course/overviewfiles/LOGO_MULTI_DESAIN.png);"></div><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=162">Multimedia Design </a></h3><div><p>Kuliah ini bertujuan untuk mengajarkan bagaimana mendesain Aplikasi Multimedia yang mampu menyampaikan dan memahamkan informasi kepada user secara optimal. Learning Outcome dari kuliah ini ada 3:</p>
+<ol>
+<li>
+<div>Mampu memahami fungsi multimedia dalam meningkatkan kualitas produk akhir</div>
+</li>
+<li>
+<div>Mampu memahami bagaimana mendesain multimedia agar kualitas produk meningkat dengan optimal</div>
+</li>
+<li>Mampu mendesain dan mengembangkan  aplikasi yang terintegrasi dengan multimedia</li>
+</ol>
+<p>Dosen pengampu <span>Mata Kuliah</span> Multimedia Design</p>
+<h4 class="LC20lb DKV0Md"><span>Reza Giga Isnanda, ST, M.Sc.</span></h4></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=3240&amp;course=1">Wito Gusti Ando</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=4985&amp;course=1">Fahmi Azhar Iskandar</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=5249&amp;course=1">Moch Nurul Indra Al Fauzan</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=4976&amp;course=1">Moch Asef Saefudin</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2344&amp;course=1">reza.gigaisnanda</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=162">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix odd" data-courseid="618" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=618">Web Application Development</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=618">Web Application Development</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2349&amp;course=1">asroni</a>, <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2363&amp;course=1">cahya.damarjati</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=618">Click to enter this course</a></p></div></div></div><div class="coursebox clearfix even last" data-courseid="146" data-type="1"><div class="info"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=146">Distributed Application Development Using .NET Framework</a></h3><div class="moreinfo"></div><div class="enrolmenticons"><img class="icon " alt="Self enrolment" title="Self enrolment" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/enrol_self/1653111401/withoutkey" /></div></div><div class="content"><div class="summary"><h3 class="coursename"><a class="" href="https://myklass-eng.umy.ac.id/course/view.php?id=146">Distributed Application Development Using .NET Framework</a></h3><div></div></div><div class="teachers">Teacher: <a href="https://myklass-eng.umy.ac.id/user/view.php?id=2344&amp;course=1">reza.gigaisnanda</a></div><div class="course-btn"><p><a class="btn btn-primary" href="https://myklass-eng.umy.ac.id/course/view.php?id=146">Click to enter this course</a></p></div></div></div></div></div></div><div class="buttons"></div></div>                </section>
+                <aside id="block-region-side-pre" class="span4 desktop-first-column pull-right block-region" data-blockregion="side-pre" data-droptarget="1"></aside>            </div>
+        </div>
+        <aside id="block-region-side-post" class="span3 block-region" data-blockregion="side-post" data-droptarget="1"><a class="skip skip-block" id="fsb-1" href="#sb-1">Skip Navigation</a><div id="inst4" class="block_navigation  block" role="navigation" data-block="navigation" data-instanceid="4" aria-labelledby="instance-4-header" data-dockable="1"><div class="header"><div class="title"><div class="block_action"></div><h2 id="instance-4-header">Navigation</h2></div></div><div class="content"><ul class="block_tree list" role="tree" data-ajax-loader="block_navigation/nav_loader"><li class="type_unknown depth_1 contains_branch" aria-labelledby="label_1_1"><p class="tree_item branch navigation_node" role="treeitem" aria-expanded="true" aria-owns="random62bdf29d3e6322_group" data-collapsible="false"><a tabindex="-1" id="label_1_1" href="https://myklass-eng.umy.ac.id/">Home</a></p><ul id="random62bdf29d3e6322_group" role="group"><li class="type_activity depth_2 item_with_icon" aria-labelledby="label_2_3"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_2_3" title="Forum" href="https://myklass-eng.umy.ac.id/mod/forum/view.php?id=125"><img class="icon navicon" alt="Forum" title="Forum" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/forum/1653111401/icon" /><span class="item-content-wrap">Site news</span></a></p></li><li class="type_system depth_2 contains_branch" aria-labelledby="label_2_4"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="true" aria-owns="random62bdf29d3e6324_group"><a tabindex="-1" id="label_2_4" href="https://myklass-eng.umy.ac.id/course/index.php">Courses</a></p><ul id="random62bdf29d3e6324_group" role="group"><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_5"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_2" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_2" data-node-key="2" data-node-type="10"><span tabindex="-1" id="label_3_5">Mechanical Engineering</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_6"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_3" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_3" data-node-key="3" data-node-type="10"><span tabindex="-1" id="label_3_6">Electrical Engineering</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_7"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_4" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_4" data-node-key="4" data-node-type="10"><span tabindex="-1" id="label_3_7">Civil Engineering</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_8"><p class="tree_item branch canexpand" role="treeitem" aria-expanded="true" aria-owns="random62bdf29d3e6325_group"><span tabindex="-1" id="label_3_8">Information Technology</span></p><ul id="random62bdf29d3e6325_group" role="group"><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_9"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_26" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_26" data-node-key="26" data-node-type="10"><span tabindex="-1" id="label_4_9">Semester 1</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_10"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_27" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_27" data-node-key="27" data-node-type="10"><span tabindex="-1" id="label_4_10">Semester 2</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_11"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_28" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_28" data-node-key="28" data-node-type="10"><span tabindex="-1" id="label_4_11">Semester 3</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_12"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_29" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_29" data-node-key="29" data-node-type="10"><span tabindex="-1" id="label_4_12">Semester 4</span></p></li><li class="type_category depth_4 contains_branch current_branch" aria-labelledby="label_4_13"><p class="tree_item branch active_tree_node" role="treeitem" aria-expanded="true" aria-owns="random62bdf29d3e6326_group"><span tabindex="-1" id="label_4_13">Semester 5</span></p><ul id="random62bdf29d3e6326_group" role="group"><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_14"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_14" title="Pengembangan Web Service" href="https://myklass-eng.umy.ac.id/course/view.php?id=1118"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">TI505P</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_15"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_15" title="Conversation On Professions And Experiences" href="https://myklass-eng.umy.ac.id/course/view.php?id=1117"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">TI501</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_16"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_16" title="Pengembangan Aplikasi Terdistribusi" href="https://myklass-eng.umy.ac.id/course/view.php?id=1097"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">TI503</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_17"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_17" title="Jaringan Switching dan Wireless (2021)" href="https://myklass-eng.umy.ac.id/course/view.php?id=1093"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">TI506 SRWE (Switching dan Wireless)</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_18"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_18" title="Pengembangan Infrastruktur Kecerdasan Bisnis" href="https://myklass-eng.umy.ac.id/course/view.php?id=877"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">TI909 - Development of Business Intelligence Infra...</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_19"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_19" title="TI504 - Developing Web Application" href="https://myklass-eng.umy.ac.id/course/view.php?id=875"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">PAW Pengembangan Aplikasi Web</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_20"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_20" title="Developing Web Application" href="https://myklass-eng.umy.ac.id/course/view.php?id=779"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">TI504-DWA</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_21"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_21" title=" Integreted Application Development using .NET Framework" href="https://myklass-eng.umy.ac.id/course/view.php?id=699"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">IAD2017</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_22"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_22" title="Software Testing and Quality Assurance" href="https://myklass-eng.umy.ac.id/course/view.php?id=698"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">STQA2019</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_23"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_23" title="Developing Database using ADO.NET &amp; JDBC" href="https://myklass-eng.umy.ac.id/course/view.php?id=650"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">ADO</span></a></p></li><li class="type_course depth_5 item_with_icon" aria-labelledby="label_5_24"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_5_24" title="Jaringan Switching dan Wireless" href="https://myklass-eng.umy.ac.id/course/view.php?id=746"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">Jswc</span></a></p></li></ul></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_25"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_31" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_31" data-node-key="31" data-node-type="10"><span tabindex="-1" id="label_4_25">Semester 6</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_26"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_32" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_32" data-node-key="32" data-node-type="10"><span tabindex="-1" id="label_4_26">Semester 7</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_27"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_33" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_33" data-node-key="33" data-node-type="10"><span tabindex="-1" id="label_4_27">Semester 8</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_28"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_72" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_72" data-node-key="72" data-node-type="10"><span tabindex="-1" id="label_4_28">Elective Course / Matakuliah Pilihan</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_29"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_45" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_45" data-node-key="45" data-node-type="10"><span tabindex="-1" id="label_4_29">Research</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_30"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_57" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_57" data-node-key="57" data-node-type="10"><span tabindex="-1" id="label_4_30">Supporting Lectures</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_31"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_60" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_60" data-node-key="60" data-node-type="10"><span tabindex="-1" id="label_4_31">Internship Program</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_32"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_62" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_62" data-node-key="62" data-node-type="10"><span tabindex="-1" id="label_4_32">Publication</span></p></li><li class="type_category depth_4 contains_branch" aria-labelledby="label_4_33"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_65" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_65" data-node-key="65" data-node-type="10"><span tabindex="-1" id="label_4_33">Community Services</span></p></li><li class="type_course depth_4 item_with_icon" aria-labelledby="label_4_34"><p class="tree_item hasicon" role="treeitem"><a tabindex="-1" id="label_4_34" title="Industrial Sharing" href="https://myklass-eng.umy.ac.id/course/view.php?id=1013"><img class="icon navicon" alt="" src="https://myklass-eng.umy.ac.id/theme/image.php/lambda/core/1653111401/i/course" /><span class="item-content-wrap">IS</span></a></p></li></ul></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_35"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_67" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_67" data-node-key="67" data-node-type="10"><span tabindex="-1" id="label_3_35">Program Profesi Insinyur</span></p></li><li class="type_category depth_3 contains_branch" aria-labelledby="label_3_36"><p class="tree_item branch" role="treeitem" id="expandable_branch_10_68" aria-expanded="false" data-requires-ajax="true" data-loaded="false" data-node-id="expandable_branch_10_68" data-node-key="68" data-node-type="10"><span tabindex="-1" id="label_3_36">Lintas FT</span></p></li></ul></li></ul></li></ul></div></div><span class="skip-block-to" id="sb-1"></span></aside>    </div>
+    
+    <!-- End Main Regions -->
+
+    <a href="#top" class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i><span class="lambda-sr-only">Back</span></a>
+
+	</div>
+
+	<footer id="page-footer" class="container-fluid">
+			<div class="row-fluid">
+		<aside id="block-region-footer-left" class="span4 block-region" data-blockregion="footer-left" data-droptarget="1"></aside><aside id="block-region-footer-middle" class="span4 block-region" data-blockregion="footer-middle" data-droptarget="1"></aside><aside id="block-region-footer-right" class="span4 block-region" data-blockregion="footer-right" data-droptarget="1"></aside> 	</div>
+
+	<div class="footerlinks">
+    	<div class="row-fluid">
+    		<p class="helplink"></p>
+    				</div>
+        
+            		
+    	        
+   	</div><div class="logininfo">You are not logged in. (<a href="https://myklass-eng.umy.ac.id/login/index.php">Log in</a>)</div>	</footer>
+
+    <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://myklass-eng.umy.ac.id/lib/requirejs.php/1646796044/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://myklass-eng.umy.ac.id/lib/javascript.php/1646796044/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://myklass-eng.umy.ac.id/lib/javascript.php/1646796044/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://myklass-eng.umy.ac.id/lib/javascript.php/1646796044/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/lib/javascript.php/1646796044/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://myklass-eng.umy.ac.id/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration Time": "Duration Time",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window."
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    $('#single_select62bdf29d3e6321').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#switchcategory').submit();
+        }
+    });
+});
+;
+require(["block_navigation/navblock"], function(amd) { amd.init("4"); });;
+require(["block_settings/settingsblock"], function(amd) { amd.init("5", null); });;
+
+require(['core/yui'], function(Y) {
+    M.util.init_skiplink(Y);
+});
+;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://myklass-eng.umy.ac.id/theme/javascript.php/lambda/1653111401/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","viewallcourses":"View all courses","cancel":"Cancel","morehelp":"More help","loadinghelp":"Loading...","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"},"block":{"addtodock":"Move this to the dock","undockitem":"Undock this item","dockblock":"Dock {$a} block","undockblock":"Undock {$a} block","undockall":"Undock all","hidedockpanel":"Hide the dock panel","hidepanel":"Hide panel"},"langconfig":{"thisdirectionvertical":"btt"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+M.util.init_block_hider(Y, {"id":"inst4","title":"Navigation","preference":"block4hidden","tooltipVisible":"Hide Navigation block","tooltipHidden":"Show Navigation block"});
+ M.util.js_pending('random62bdf29d3e63221'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random62bdf29d3e63221'); });
+})();
+//]]>
+</script>
+
+</div>
+
+<!--[if lte IE 9]>
+<script src="https://myklass-eng.umy.ac.id/theme/lambda/javascript/ie/iefix.js"></script>
+<![endif]-->
+
+</body>
+</html>
